@@ -1,0 +1,404 @@
+[
+  {
+    "title": "Two Sum",
+    "description": "Use a hash map to store seen values and their indices; check complement each step.",
+    "topic": "Array",
+    "pattern": "Hash Map / Set",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/two-sum/"
+  },
+  {
+    "title": "3Sum",
+    "description": "Sort, fix one index, and use two pointers to find unique triplets that sum to zero.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/3sum/"
+  },
+  {
+    "title": "Container With Most Water",
+    "description": "Two pointers from ends; move the shorter line to maximize area.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/container-with-most-water/"
+  },
+  {
+    "title": "Minimum Size Subarray Sum",
+    "description": "Variable-size sliding window over positives; shrink while sum ≥ target.",
+    "topic": "Array",
+    "pattern": "Sliding Window",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-size-subarray-sum/"
+  },
+  {
+    "title": "Subarray Sum Equals K",
+    "description": "Prefix sum with hashmap counting occurrences of (sum − K).",
+    "topic": "Array",
+    "pattern": "Prefix Sum",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/subarray-sum-equals-k/"
+  },
+  {
+    "title": "Product of Array Except Self",
+    "description": "Compute prefix and suffix products to avoid division and use O(1) extra space.",
+    "topic": "Array",
+    "pattern": "Prefix/Suffix Products",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/product-of-array-except-self/"
+  },
+  {
+    "title": "Maximum Subarray",
+    "description": "Kadane’s algorithm: track current best ending here and global max.",
+    "topic": "Array",
+    "pattern": "Kadane / Subarray",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/maximum-subarray/"
+  },
+  {
+    "title": "Find Minimum in Rotated Sorted Array",
+    "description": "Binary search the pivot by comparing mid with right.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+  },
+  {
+    "title": "Kth Largest Element in an Array",
+    "description": "Quickselect (average O(n)) or heap to find the kth order statistic.",
+    "topic": "Array",
+    "pattern": "Order Statistics (Quickselect)",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+  },
+  {
+    "title": "Top K Frequent Elements",
+    "description": "Build frequency map; use heap or bucket sort to extract top K.",
+    "topic": "Array",
+    "pattern": "Heap / Priority Queue",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/top-k-frequent-elements/"
+  },
+
+  {
+    "title": "3Sum Closest",
+    "description": "Sort, then fix i and two-pointer from both ends to track the closest sum.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/3sum-closest/"
+  },
+  {
+    "title": "4Sum",
+    "description": "Generalize k-sum: sort, fix two indices, then two-pointer for the rest; dedupe carefully.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/4sum/"
+  },
+  {
+    "title": "Sliding Window Maximum",
+    "description": "Maintain a decreasing deque of indices to get the max for each window in O(n).",
+    "topic": "Array",
+    "pattern": "Monotonic Queue",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/sliding-window-maximum/"
+  },
+  {
+    "title": "Trapping Rain Water",
+    "description": "Two pointers or a monotonic stack to accumulate trapped water between bars.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/trapping-rain-water/"
+  },
+  {
+    "title": "Maximum Product Subarray",
+    "description": "Track max and min products because negatives can flip signs.",
+    "topic": "Array",
+    "pattern": "Kadane / Subarray",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/maximum-product-subarray/"
+  },
+  {
+    "title": "Subarray Sums Divisible by K",
+    "description": "Use prefix mod counts; two prefixes with same mod form a divisible subarray.",
+    "topic": "Array",
+    "pattern": "Prefix Sum",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/subarray-sums-divisible-by-k/"
+  },
+  {
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "description": "Binary search lower and upper bounds to get the range.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+  },
+  {
+    "title": "Split Array Largest Sum",
+    "description": "Binary search the answer (max subarray sum) and greedily count partitions.",
+    "topic": "Array",
+    "pattern": "Binary Search on Answer",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/split-array-largest-sum/"
+  },
+  {
+    "title": "Find K Pairs with Smallest Sums",
+    "description": "Min-heap seeded with first column; expand by pushing next candidate pairs.",
+    "topic": "Array",
+    "pattern": "Heap / Priority Queue",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/"
+  },
+  {
+    "title": "Daily Temperatures",
+    "description": "Use a decreasing stack of indices; pop when a warmer day appears.",
+    "topic": "Array",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/daily-temperatures/"
+  },
+
+  {
+    "title": "Move Zeroes",
+    "description": "Stable compaction using two pointers to keep relative order.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/move-zeroes/"
+  },
+  {
+    "title": "Remove Duplicates from Sorted Array",
+    "description": "Overwrite in-place while keeping one occurrence of each value.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
+  },
+  {
+    "title": "Remove Duplicates from Sorted Array II",
+    "description": "Allow at most two occurrences; controlled overwrite with write pointer.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/"
+  },
+  {
+    "title": "Next Greater Element II",
+    "description": "Use a monotonic stack over a circular array (iterate twice).",
+    "topic": "Array",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/next-greater-element-ii/"
+  },
+  {
+    "title": "Sum of Subarray Minimums",
+    "description": "Monotonic stack counts each element’s contribution as the minimum.",
+    "topic": "Array",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/sum-of-subarray-minimums/"
+  },
+  {
+    "title": "Largest Rectangle in Histogram",
+    "description": "Maintain increasing heights stack; compute area on pops.",
+    "topic": "Array",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+  },
+  {
+    "title": "Koko Eating Bananas",
+    "description": "Binary search minimal integer speed with greedy feasibility check.",
+    "topic": "Array",
+    "pattern": "Binary Search on Answer",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/koko-eating-bananas/"
+  },
+  {
+    "title": "Capacity To Ship Packages Within D Days",
+    "description": "Binary search minimal capacity; greedy simulate days needed.",
+    "topic": "Array",
+    "pattern": "Binary Search on Answer",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/"
+  },
+  {
+    "title": "Kth Smallest Pair Distance",
+    "description": "Binary search the distance and count pairs via two pointers.",
+    "topic": "Array",
+    "pattern": "Binary Search on Answer",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/find-k-th-smallest-pair-distance/"
+  },
+  {
+    "title": "Median of Two Sorted Arrays",
+    "description": "Binary partition both arrays to balance left/right halves.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+  },
+  {
+    "title": "Find Peak Element",
+    "description": "Binary search on slope; always a peak exists.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/find-peak-element/"
+  },
+  {
+    "title": "Merge Intervals",
+    "description": "Sort by start; merge overlapping ranges greedily.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/merge-intervals/"
+  },
+  {
+    "title": "Insert Interval",
+    "description": "Insert then merge overlaps while scanning.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/insert-interval/"
+  },
+  {
+    "title": "Minimum Number of Arrows to Burst Balloons",
+    "description": "Greedy by end coordinate; shoot when an interval ends.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/"
+  },
+  {
+    "title": "Gas Station",
+    "description": "Greedy: if total gas ≥ cost, start after any negative prefix.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/gas-station/"
+  },
+  {
+    "title": "Candy",
+    "description": "Two passes (left→right, right→left) to satisfy rating constraints.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/candy/"
+  },
+  {
+    "title": "H-Index",
+    "description": "Sort citations and find max h with count ≥ h.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/h-index/"
+  },
+  {
+    "title": "H-Index II",
+    "description": "Binary search on the sorted citations array.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/h-index-ii/"
+  },
+  {
+    "title": "Shortest Unsorted Continuous Subarray",
+    "description": "Detect the minimal window to sort using scans or stack.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray/"
+  },
+  {
+    "title": "Majority Element",
+    "description": "Boyer–Moore voting to find element > n/2.",
+    "topic": "Array",
+    "pattern": "Boyer–Moore Voting (Majority)",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/majority-element/"
+  },
+  {
+    "title": "Binary Subarrays With Sum",
+    "description": "Prefix sum over 0/1 array; count matches with a hashmap.",
+    "topic": "Array",
+    "pattern": "Prefix Sum",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/binary-subarrays-with-sum/"
+  },
+  {
+    "title": "Count Number of Nice Subarrays",
+    "description": "Count subarrays with exactly k odds using prefix sums.",
+    "topic": "Array",
+    "pattern": "Prefix Sum",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/count-number-of-nice-subarrays/"
+  },
+  {
+    "title": "Subarrays With K Different Integers",
+    "description": "AtMost(K) − AtMost(K−1) via sliding window with counts.",
+    "topic": "Array",
+    "pattern": "Sliding Window",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/subarrays-with-k-different-integers/"
+  },
+  {
+    "title": "Maximum Sum Circular Subarray",
+    "description": "Kadane on normal and inverted array; handle all-negative case.",
+    "topic": "Array",
+    "pattern": "Kadane / Subarray",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/maximum-sum-circular-subarray/"
+  },
+  {
+    "title": "Longest Consecutive Sequence",
+    "description": "Use a hash set and grow only from sequence starts.",
+    "topic": "Array",
+    "pattern": "Hash Map / Set",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/longest-consecutive-sequence/"
+  },
+  {
+    "title": "Search in Rotated Sorted Array",
+    "description": "Binary search while identifying which half is sorted.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+  },
+  {
+    "title": "K Closest Points to Origin",
+    "description": "Use a heap (or quickselect) to keep the K smallest distances.",
+    "topic": "Array",
+    "pattern": "Heap / Priority Queue",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/k-closest-points-to-origin/"
+  },
+  {
+    "title": "Minimum Swaps to Group All 1's Together",
+    "description": "Fixed-size window of ones; compute min swaps as window size − ones.",
+    "topic": "Array",
+    "pattern": "Sliding Window",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/"
+  },
+  {
+    "title": "Minimum Swaps to Group All 1's Together II",
+    "description": "Handle circular case by doubling array or modular window.",
+    "topic": "Array",
+    "pattern": "Sliding Window",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/"
+  },
+  {
+    "title": "Minimum Operations to Reduce X to Zero",
+    "description": "Convert to longest subarray with sum = total − x; two-pointer/window.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/"
+  }
+]

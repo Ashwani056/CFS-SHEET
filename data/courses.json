@@ -1,0 +1,38 @@
+[
+  {
+    "title": "SPARK BATCH 4.0 - 100% Job Ready Java Full Stack",
+    "image": "/img/spark4.0.jpg",
+    "badges": ["LIVE BATCH", "HINGLISH"],
+    "discountLabel": "Early Bird Discount",
+    "price": "₹ 4590",
+    "originalPrice": "₹ 14999",
+    "discount": "69% OFF",
+    "features": [
+      "Live Masterclasses",
+      "Experienced Instructor",
+      "Access to recording",
+      "Project Based Learning",
+      "Bonus Sections",
+      "Interview Preparation"
+    ],
+    "buttonText": "View Details"
+  },
+  {
+    "title": "SuperOps 1.0 - Ultimate DevOps With AWS Mastery Course",
+    "image": "/img/devops1.0.png",
+    "badges": ["LIVE BATCH", "ENGLISH"],
+    "discountLabel": "Special Launch Price",
+    "price": "₹ 5950",
+    "originalPrice": "₹ 14999",
+    "discount": "60% OFF",
+    "features": [
+      "Live Masterclasses",
+      "Hands-on Projects",
+      "Access to Recordings",
+      "Bonus Sessions",
+      "Interview Preparation",
+      "Experienced Instructor"
+    ],
+    "buttonText": "View Details"
+  }
+]

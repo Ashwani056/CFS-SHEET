@@ -1,0 +1,1516 @@
+[
+  {
+    "title": "Reverse the array",
+    "description": "Reverse in-place using two pointers from both ends.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array/"
+  },
+  {
+    "title": "Find max & min in array",
+    "description": "Single pass tracking current minimum and maximum.",
+    "topic": "Array",
+    "pattern": "General",
+    "difficulty": "Easy",
+    "link": "https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/"
+  },
+  {
+    "title": "Cyclically rotate by 1",
+    "description": "Rotate array by one position using temp+shift or reverse trick.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://www.geeksforgeeks.org/c-program-cyclically-rotate-array-one/"
+  },
+  {
+    "title": "Move negatives to one side (order not preserved)",
+    "description": "Partition array so negatives move to one side; order irrelevant.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Easy",
+    "link": "https://www.geeksforgeeks.org/move-negative-numbers-beginning-positive-end-constant-extra-space/"
+  },
+  {
+    "title": "Move negatives (order preserved / stable)",
+    "description": "Stable partition to keep the relative order of elements.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://www.geeksforgeeks.org/stable-approach-to-segregate-positive-and-negative-numbers/"
+  },
+  {
+    "title": "Rearrange +/- alternately (O(1) extra space)",
+    "description": "Alternate positives and negatives in-place with O(1) extra space.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/"
+  },
+  {
+    "title": "Three-way partition around a value",
+    "description": "Partition into < key, == key, and > key in linear time.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://www.geeksforgeeks.org/three-way-partitioning-of-an-array-around-a-given-value/"
+  },
+  {
+    "title": "Minimum swaps to group elements ≤ K together",
+    "description": "Sliding window to minimize swaps grouping elements ≤ K together.",
+    "topic": "Array",
+    "pattern": "Sliding Window",
+    "difficulty": "Medium",
+    "link": "https://www.geeksforgeeks.org/minimum-swaps-required-group-elements-less-equal-k-together/"
+  },
+  {
+    "title": "Merge two sorted arrays in place (gap method)",
+    "description": "Use Shell gap method to merge with O(1) extra space.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/"
+  },
+  {
+    "title": "Union of two sorted arrays",
+    "description": "Two-pointer sweep to build the union without duplicates.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://www.geeksforgeeks.org/union-of-two-sorted-arrays/"
+  },
+  {
+    "title": "Intersection of two sorted arrays",
+    "description": "Two-pointer sweep to collect common elements.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://www.geeksforgeeks.org/intersection-of-two-sorted-arrays/"
+  },
+  {
+    "title": "Two Sum II (sorted)",
+    "description": "Two pointers from both ends to find target sum in a sorted array.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
+  },
+  {
+    "title": "Common elements in 3 sorted arrays",
+    "description": "Three-pointer walk to gather common elements.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://www.geeksforgeeks.org/find-common-elements-three-sorted-arrays/"
+  },
+  {
+    "title": "Minimum Absolute Difference (sorted)",
+    "description": "Sort and scan adjacent pairs to get minimal difference.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/minimum-absolute-difference/"
+  },
+  {
+    "title": "Subarray sum = 0 (existence)",
+    "description": "Use prefix-sum set/map to detect a zero-sum subarray.",
+    "topic": "Array",
+    "pattern": "Prefix Sum",
+    "difficulty": "Medium",
+    "link": "https://www.geeksforgeeks.org/find-if-there-is-a-subarray-with-0-sum/"
+  },
+  {
+    "title": "Longest subarray sum = K (pos+neg)",
+    "description": "Prefix-sum hashmap storing earliest index per sum.",
+    "topic": "Array",
+    "pattern": "Prefix Sum",
+    "difficulty": "Medium",
+    "link": "https://www.geeksforgeeks.org/longest-sub-array-sum-k/"
+  },
+  {
+    "title": "Max sum subarray of size K (fixed window)",
+    "description": "Fixed-size sliding window tracking running sum.",
+    "topic": "Array",
+    "pattern": "Sliding Window",
+    "difficulty": "Easy",
+    "link": "https://www.geeksforgeeks.org/max-sum-subarray-of-size-k/"
+  },
+  {
+    "title": "Stock Span",
+    "description": "Use a decreasing stack of indices; pop when a greater price appears.",
+    "topic": "Array",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/online-stock-span/"
+  },
+  {
+    "title": "Min Days to Make m Bouquets",
+    "description": "Binary search the day; check feasibility via contiguous flowers.",
+    "topic": "Array",
+    "pattern": "Binary Search on Answer",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/"
+  },
+  {
+    "title": "Magnetic Force Between Two Balls (Aggressive Cows)",
+    "description": "Binary search the max minimum distance with greedy placement.",
+    "topic": "Array",
+    "pattern": "Binary Search on Answer",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/magnetic-force-between-two-balls/"
+  },
+  {
+    "title": "Find Median from Data Stream",
+    "description": "Maintain two heaps to support streaming median queries.",
+    "topic": "Array",
+    "pattern": "Two Heaps (Median maintenance)",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/find-median-from-data-stream/"
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock I",
+    "description": "Track running minimum and best profit in one pass.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock II",
+    "description": "Greedy: sum of all positive price differences.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/"
+  },
+  {
+    "title": "Minimise the Maximum Difference Between Heights",
+    "description": "Greedy adjustments (+/− k) to minimize the range.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Medium",
+    "link": "https://www.geeksforgeeks.org/minimize-the-maximum-difference-between-the-heights/"
+  },
+  {
+    "title": "Chocolate Distribution",
+    "description": "Sort and slide window of size m to minimize difference.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Medium",
+    "link": "https://www.geeksforgeeks.org/chocolate-distribution-problem/"
+  },
+  {
+    "title": "Count Inversions (merge sort)",
+    "description": "Augment merge sort to count cross-inversions.",
+    "topic": "Array",
+    "pattern": "Merge Sort",
+    "difficulty": "Hard",
+    "link": "https://www.geeksforgeeks.org/counting-inversions/"
+  },
+  {
+    "title": "Elements appearing > n/k (generalized majority)",
+    "description": "Generalized Boyer–Moore to track up to k−1 candidates.",
+    "topic": "Array",
+    "pattern": "Boyer–Moore Voting (Majority)",
+    "difficulty": "Medium",
+    "link": "https://www.geeksforgeeks.org/count-elements-occur-more-than-nk-times/"
+  },
+  {
+    "title": "Range Frequency Queries",
+    "description": "Preprocess to answer frequency queries over ranges efficiently.",
+    "topic": "Array",
+    "pattern": "Range Queries (Segment Tree)",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/range-frequency-queries/"
+  },
+  {
+    "title": "Longest Increasing Subsequence (O(n log n))",
+    "description": "Patience sorting with binary search for tails; optionally record parents.",
+    "topic": "Array",
+    "pattern": "LIS / Patience Sorting",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/longest-increasing-subsequence/"
+  },
+  {
+    "title": "Number of Longest Increasing Subsequence (path/duplicates)",
+    "description": "Count LIS and handle duplicates; track lengths and counts.",
+    "topic": "Array",
+    "pattern": "LIS / Patience Sorting",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/"
+  },
+  {
+    "title": "Two Sum",
+    "description": "Use a hash map to store seen values and their indices; check complement each step.",
+    "topic": "Array",
+    "pattern": "Hash Map / Set",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/two-sum/"
+  },
+  {
+    "title": "3Sum",
+    "description": "Sort, fix one index, and use two pointers to find unique triplets that sum to zero.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/3sum/"
+  },
+  {
+    "title": "Container With Most Water",
+    "description": "Two pointers from ends; move the shorter line to maximize area.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/container-with-most-water/"
+  },
+  {
+    "title": "Minimum Size Subarray Sum",
+    "description": "Variable-size sliding window over positives; shrink while sum ≥ target.",
+    "topic": "Array",
+    "pattern": "Sliding Window",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-size-subarray-sum/"
+  },
+  {
+    "title": "Subarray Sum Equals K",
+    "description": "Prefix sum with hashmap counting occurrences of (sum − K).",
+    "topic": "Array",
+    "pattern": "Prefix Sum",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/subarray-sum-equals-k/"
+  },
+  {
+    "title": "Product of Array Except Self",
+    "description": "Compute prefix and suffix products to avoid division and use O(1) extra space.",
+    "topic": "Array",
+    "pattern": "Prefix/Suffix Products",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/product-of-array-except-self/"
+  },
+  {
+    "title": "Maximum Subarray",
+    "description": "Kadane’s algorithm: track current best ending here and global max.",
+    "topic": "Array",
+    "pattern": "Kadane / Subarray",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/maximum-subarray/"
+  },
+  {
+    "title": "Find Minimum in Rotated Sorted Array",
+    "description": "Binary search the pivot by comparing mid with right.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+  },
+  {
+    "title": "Kth Largest Element in an Array",
+    "description": "Quickselect (average O(n)) or heap to find the kth order statistic.",
+    "topic": "Array",
+    "pattern": "Order Statistics (Quickselect)",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+  },
+  {
+    "title": "Top K Frequent Elements",
+    "description": "Build frequency map; use heap or bucket sort to extract top K.",
+    "topic": "Array",
+    "pattern": "Heap / Priority Queue",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/top-k-frequent-elements/"
+  },
+
+  {
+    "title": "3Sum Closest",
+    "description": "Sort, then fix i and two-pointer from both ends to track the closest sum.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/3sum-closest/"
+  },
+  {
+    "title": "4Sum",
+    "description": "Generalize k-sum: sort, fix two indices, then two-pointer for the rest; dedupe carefully.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/4sum/"
+  },
+  {
+    "title": "Sliding Window Maximum",
+    "description": "Maintain a decreasing deque of indices to get the max for each window in O(n).",
+    "topic": "Array",
+    "pattern": "Monotonic Queue",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/sliding-window-maximum/"
+  },
+  {
+    "title": "Trapping Rain Water",
+    "description": "Two pointers or a monotonic stack to accumulate trapped water between bars.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/trapping-rain-water/"
+  },
+  {
+    "title": "Maximum Product Subarray",
+    "description": "Track max and min products because negatives can flip signs.",
+    "topic": "Array",
+    "pattern": "Kadane / Subarray",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/maximum-product-subarray/"
+  },
+  {
+    "title": "Subarray Sums Divisible by K",
+    "description": "Use prefix mod counts; two prefixes with same mod form a divisible subarray.",
+    "topic": "Array",
+    "pattern": "Prefix Sum",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/subarray-sums-divisible-by-k/"
+  },
+  {
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "description": "Binary search lower and upper bounds to get the range.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+  },
+  {
+    "title": "Split Array Largest Sum",
+    "description": "Binary search the answer (max subarray sum) and greedily count partitions.",
+    "topic": "Array",
+    "pattern": "Binary Search on Answer",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/split-array-largest-sum/"
+  },
+  {
+    "title": "Find K Pairs with Smallest Sums",
+    "description": "Min-heap seeded with first column; expand by pushing next candidate pairs.",
+    "topic": "Array",
+    "pattern": "Heap / Priority Queue",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/"
+  },
+  {
+    "title": "Daily Temperatures",
+    "description": "Use a decreasing stack of indices; pop when a warmer day appears.",
+    "topic": "Array",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/daily-temperatures/"
+  },
+
+  {
+    "title": "Move Zeroes",
+    "description": "Stable compaction using two pointers to keep relative order.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/move-zeroes/"
+  },
+  {
+    "title": "Remove Duplicates from Sorted Array",
+    "description": "Overwrite in-place while keeping one occurrence of each value.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
+  },
+  {
+    "title": "Remove Duplicates from Sorted Array II",
+    "description": "Allow at most two occurrences; controlled overwrite with write pointer.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/"
+  },
+  {
+    "title": "Next Greater Element II",
+    "description": "Use a monotonic stack over a circular array (iterate twice).",
+    "topic": "Array",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/next-greater-element-ii/"
+  },
+  {
+    "title": "Sum of Subarray Minimums",
+    "description": "Monotonic stack counts each element’s contribution as the minimum.",
+    "topic": "Array",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/sum-of-subarray-minimums/"
+  },
+  {
+    "title": "Largest Rectangle in Histogram",
+    "description": "Maintain increasing heights stack; compute area on pops.",
+    "topic": "Array",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+  },
+  {
+    "title": "Koko Eating Bananas",
+    "description": "Binary search minimal integer speed with greedy feasibility check.",
+    "topic": "Array",
+    "pattern": "Binary Search on Answer",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/koko-eating-bananas/"
+  },
+  {
+    "title": "Capacity To Ship Packages Within D Days",
+    "description": "Binary search minimal capacity; greedy simulate days needed.",
+    "topic": "Array",
+    "pattern": "Binary Search on Answer",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/"
+  },
+  {
+    "title": "Kth Smallest Pair Distance",
+    "description": "Binary search the distance and count pairs via two pointers.",
+    "topic": "Array",
+    "pattern": "Binary Search on Answer",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/find-k-th-smallest-pair-distance/"
+  },
+  {
+    "title": "Median of Two Sorted Arrays",
+    "description": "Binary partition both arrays to balance left/right halves.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+  },
+  {
+    "title": "Find Peak Element",
+    "description": "Binary search on slope; always a peak exists.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/find-peak-element/"
+  },
+  {
+    "title": "Merge Intervals",
+    "description": "Sort by start; merge overlapping ranges greedily.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/merge-intervals/"
+  },
+  {
+    "title": "Insert Interval",
+    "description": "Insert then merge overlaps while scanning.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/insert-interval/"
+  },
+  {
+    "title": "Minimum Number of Arrows to Burst Balloons",
+    "description": "Greedy by end coordinate; shoot when an interval ends.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/"
+  },
+  {
+    "title": "Gas Station",
+    "description": "Greedy: if total gas ≥ cost, start after any negative prefix.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/gas-station/"
+  },
+  {
+    "title": "Candy",
+    "description": "Two passes (left→right, right→left) to satisfy rating constraints.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/candy/"
+  },
+  {
+    "title": "H-Index",
+    "description": "Sort citations and find max h with count ≥ h.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/h-index/"
+  },
+  {
+    "title": "H-Index II",
+    "description": "Binary search on the sorted citations array.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/h-index-ii/"
+  },
+  {
+    "title": "Shortest Unsorted Continuous Subarray",
+    "description": "Detect the minimal window to sort using scans or stack.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray/"
+  },
+  {
+    "title": "Majority Element",
+    "description": "Boyer–Moore voting to find element > n/2.",
+    "topic": "Array",
+    "pattern": "Boyer–Moore Voting (Majority)",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/majority-element/"
+  },
+  {
+    "title": "Binary Subarrays With Sum",
+    "description": "Prefix sum over 0/1 array; count matches with a hashmap.",
+    "topic": "Array",
+    "pattern": "Prefix Sum",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/binary-subarrays-with-sum/"
+  },
+  {
+    "title": "Count Number of Nice Subarrays",
+    "description": "Count subarrays with exactly k odds using prefix sums.",
+    "topic": "Array",
+    "pattern": "Prefix Sum",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/count-number-of-nice-subarrays/"
+  },
+  {
+    "title": "Subarrays With K Different Integers",
+    "description": "AtMost(K) − AtMost(K−1) via sliding window with counts.",
+    "topic": "Array",
+    "pattern": "Sliding Window",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/subarrays-with-k-different-integers/"
+  },
+  {
+    "title": "Maximum Sum Circular Subarray",
+    "description": "Kadane on normal and inverted array; handle all-negative case.",
+    "topic": "Array",
+    "pattern": "Kadane / Subarray",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/maximum-sum-circular-subarray/"
+  },
+  {
+    "title": "Longest Consecutive Sequence",
+    "description": "Use a hash set and grow only from sequence starts.",
+    "topic": "Array",
+    "pattern": "Hash Map / Set",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/longest-consecutive-sequence/"
+  },
+  {
+    "title": "Search in Rotated Sorted Array",
+    "description": "Binary search while identifying which half is sorted.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+  },
+  {
+    "title": "K Closest Points to Origin",
+    "description": "Use a heap (or quickselect) to keep the K smallest distances.",
+    "topic": "Array",
+    "pattern": "Heap / Priority Queue",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/k-closest-points-to-origin/"
+  },
+  {
+    "title": "Minimum Swaps to Group All 1's Together",
+    "description": "Fixed-size window of ones; compute min swaps as window size − ones.",
+    "topic": "Array",
+    "pattern": "Sliding Window",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/"
+  },
+  {
+    "title": "Minimum Swaps to Group All 1's Together II",
+    "description": "Handle circular case by doubling array or modular window.",
+    "topic": "Array",
+    "pattern": "Sliding Window",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/"
+  },
+  {
+    "title": "Minimum Operations to Reduce X to Zero",
+    "description": "Convert to longest subarray with sum = total − x; two-pointer/window.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/"
+  },
+  {
+    "title": "Longest Mountain in Array",
+    "description": "Scan peaks and expand left/right (or two pointers) to measure mountain length.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/longest-mountain-in-array/"
+  },
+  {
+    "title": "Sort Colors",
+    "description": "Dutch National Flag: three-way partition with low/mid/high pointers.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/sort-colors/"
+  },
+  {
+    "title": "Non-overlapping Intervals",
+    "description": "Greedy by end time to keep maximum non-overlapping intervals.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/non-overlapping-intervals/"
+  },
+  {
+    "title": "Minimum Number of Operations to Make Array Continuous",
+    "description": "Sort unique values and use sliding window/two pointers to fit into length-n range.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/"
+  },
+  {
+    "title": "Range Sum Query - Immutable",
+    "description": "Build prefix sums to answer range queries in O(1).",
+    "topic": "Array",
+    "pattern": "Prefix Sum",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/range-sum-query-immutable/"
+  },
+  {
+    "title": "Single Number",
+    "description": "XOR all elements to isolate the unique value.",
+    "topic": "Array",
+    "pattern": "Bit Manipulation",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/single-number/"
+  },
+  {
+    "title": "Single Number II",
+    "description": "Bit counts modulo 3 (or state machine) to isolate the unique value.",
+    "topic": "Array",
+    "pattern": "Bit Manipulation",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/single-number-ii/"
+  },
+  {
+    "title": "Majority Element II",
+    "description": "Generalized Boyer–Moore to track candidates occurring more than n/3 times.",
+    "topic": "Array",
+    "pattern": "Boyer–Moore Voting (Majority)",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/majority-element-ii/"
+  },
+  {
+    "title": "Non-decreasing Array",
+    "description": "At most one modification; check local violations and fix greedily.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/non-decreasing-array/"
+  },
+  {
+    "title": "Car Pooling",
+    "description": "Use a difference array / sweep-line over positions to track capacity.",
+    "topic": "Array",
+    "pattern": "Difference Array",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/car-pooling/"
+  },
+  {
+    "title": "First Missing Positive",
+    "description": "Place each value at its index (1-based) to find the smallest missing positive in O(n) time, O(1) space.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/first-missing-positive/"
+  },
+  {
+    "title": "Find the Duplicate Number",
+    "description": "Use Floyd’s cycle detection (fast & slow pointers) on index graph.",
+    "topic": "Array",
+    "pattern": "Fast & Slow Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/find-the-duplicate-number/"
+  },
+  {
+    "title": "Missing Number",
+    "description": "Use XOR fold (or Gauss sum) to find the missing value from 0..n.",
+    "topic": "Array",
+    "pattern": "Bit Manipulation",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/missing-number/"
+  },
+  {
+    "title": "Find All Duplicates in an Array",
+    "description": "Mark visited indices by sign flipping to detect duplicates in O(1) extra space.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/find-all-duplicates-in-an-array/"
+  },
+  {
+    "title": "Find All Numbers Disappeared in an Array",
+    "description": "Index-as-hash: mark presence by negating at mapped index; collect unmarked.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/"
+  },
+  {
+    "title": "Subarray Product Less Than K",
+    "description": "Sliding window over positives; expand/shrink maintaining product < K.",
+    "topic": "Array",
+    "pattern": "Sliding Window",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/subarray-product-less-than-k/"
+  },
+  {
+    "title": "Next Permutation",
+    "description": "Find first decreasing pair from right, swap with next larger, then reverse suffix.",
+    "topic": "Array",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/next-permutation/"
+  },
+  {
+    "title": "Rotate Array",
+    "description": "Use three reversals (or cyclic replacements) to rotate by k in-place.",
+    "topic": "Array",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/rotate-array/"
+  },
+  {
+    "title": "Jump Game",
+    "description": "Greedy: track farthest reachable index; ensure we never get stuck.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/jump-game/"
+  },
+  {
+    "title": "Jump Game II",
+    "description": "Greedy level traversal (like BFS on ranges) to minimize jumps.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/jump-game-ii/"
+  },
+  {
+    "title": "Search in Rotated Sorted Array II",
+    "description": "Binary search with duplicates; shrink equals on the edges to restore order detection.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/"
+  },
+  {
+    "title": "Find Minimum in Rotated Sorted Array II",
+    "description": "Find pivot with duplicates by trimming equals and comparing mid with right.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/"
+  },
+  {
+    "title": "Shortest Subarray with Sum ≥ K",
+    "description": "Prefix sums + monotonic deque to maintain increasing prefix indices.",
+    "topic": "Array",
+    "pattern": "Monotonic Queue",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/"
+  },
+  {
+    "title": "Sum of Subarray Ranges",
+    "description": "Monotonic stacks to count each element’s contribution as max and as min.",
+    "topic": "Array",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/sum-of-subarray-ranges/"
+  },
+  {
+    "title": "Longest Subarray With Positive Product",
+    "description": "Track sign and first/last negative positions; greedy segment logic.",
+    "topic": "Array",
+    "pattern": "Greedy",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/"
+  },
+  {
+    "title": "Minimum Removals to Make Mountain Array",
+    "description": "LIS left and right to form a mountain; minimize removals.",
+    "topic": "Array",
+    "pattern": "LIS / Patience Sorting",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/"
+  },
+  {
+    "title": "Range Sum Query - Mutable",
+    "description": "Support point updates + range sum queries via Fenwick Tree or Segment Tree.",
+    "topic": "Array",
+    "pattern": "Fenwick Tree (BIT)",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/range-sum-query-mutable/"
+  },
+  {
+    "title": "Find Kth Missing Positive Number",
+    "description": "Binary search on the index where missing_count(index) ≥ k.",
+    "topic": "Array",
+    "pattern": "Binary Search",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/kth-missing-positive-number/"
+  },
+  {
+    "title": "Maximum Erasure Value",
+    "description": "Sliding window with a set/map to keep a subarray of distinct values and max sum.",
+    "topic": "Array",
+    "pattern": "Sliding Window",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/maximum-erasure-value/"
+  },
+  {
+    "title": "Next Greater Element I",
+    "description": "Precompute next greater using a decreasing stack; map results for queries.",
+    "topic": "Array",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/next-greater-element-i/"
+  },
+  {
+    "title": "Isomorphic Strings",
+    "description": "Check bijection between characters using two maps (s→t and t→s).",
+    "topic": "Strings",
+    "pattern": "Hash Map / Set",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/isomorphic-strings/"
+  },
+  {
+    "title": "Word Pattern",
+    "description": "Verify a bijection between pattern letters and words split by spaces.",
+    "topic": "Strings",
+    "pattern": "Hash Map / Set",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/word-pattern/"
+  },
+  {
+    "title": "Valid Palindrome",
+    "description": "Two pointers skipping non-alphanumerics; compare lowercase ends.",
+    "topic": "Strings",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/valid-palindrome/"
+  },
+  {
+    "title": "Reverse Only Letters",
+    "description": "Two pointers; swap letters while skipping non-letters.",
+    "topic": "Strings",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/reverse-only-letters/"
+  },
+  {
+    "title": "Remove K Digits",
+    "description": "Monotonic stack to keep increasing digits; pop when next is smaller.",
+    "topic": "Strings",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/remove-k-digits/"
+  },
+  {
+    "title": "Remove All Adjacent Duplicates in String II",
+    "description": "Stack pairs (char,count); pop when count reaches k; rebuild result.",
+    "topic": "Strings",
+    "pattern": "Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/"
+  },
+  {
+    "title": "Custom Sort String",
+    "description": "Count characters and output in the custom order then the rest.",
+    "topic": "Strings",
+    "pattern": "Hash Map / Set",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/custom-sort-string/"
+  },
+  {
+    "title": "Integer to Roman",
+    "description": "Greedy: subtract largest symbol values and append symbols.",
+    "topic": "Strings",
+    "pattern": "Greedy",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/integer-to-roman/"
+  },
+  {
+    "title": "Roman to Integer",
+    "description": "Scan with value map; subtract when a smaller precedes a larger.",
+    "topic": "Strings",
+    "pattern": "Hash Map / Set",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/roman-to-integer/"
+  },
+  {
+    "title": "String to Integer (atoi)",
+    "description": "Parse with trimming, sign, digits, and clamp to 32-bit range.",
+    "topic": "Strings",
+    "pattern": "General",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/string-to-integer-atoi/"
+  },
+  {
+    "title": "Longest Substring Without Repeating Characters",
+    "description": "Sliding window with last-seen index map to keep a unique window.",
+    "topic": "Strings",
+    "pattern": "Sliding Window",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+  },
+  {
+    "title": "Longest Repeating Character Replacement",
+    "description": "Window with counts; keep most-frequent char and shrink when replacements exceed k.",
+    "topic": "Strings",
+    "pattern": "Sliding Window",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+  },
+  {
+    "title": "Minimum Window Substring",
+    "description": "Expand/contract window while tracking required character counts.",
+    "topic": "Strings",
+    "pattern": "Sliding Window",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/minimum-window-substring/"
+  },
+  {
+    "title": "Find All Anagrams in a String",
+    "description": "Fixed-size sliding window with frequency diff to match anagrams.",
+    "topic": "Strings",
+    "pattern": "Sliding Window",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/find-all-anagrams-in-a-string/"
+  },
+  {
+    "title": "Group Anagrams",
+    "description": "Hash words by sorted key or letter frequency signature.",
+    "topic": "Strings",
+    "pattern": "Hash Map / Set",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/group-anagrams/"
+  },
+  {
+    "title": "Valid Anagram",
+    "description": "Compare frequency counts (or sort both strings).",
+    "topic": "Strings",
+    "pattern": "Hash Map / Set",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/valid-anagram/"
+  },
+  {
+    "title": "Longest Palindromic Substring",
+    "description": "Expand around centers; track best left/right bounds.",
+    "topic": "Strings",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/longest-palindromic-substring/"
+  },
+  {
+    "title": "Palindromic Substrings",
+    "description": "Count palindromes by expanding around every center (odd/even).",
+    "topic": "Strings",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/palindromic-substrings/"
+  },
+  {
+    "title": "Find the Index of the First Occurrence in a String (strStr)",
+    "description": "KMP prefix-function (LPS) to search pattern in O(n+m).",
+    "topic": "Strings",
+    "pattern": "String Matching (KMP / Z / Rabin–Karp)",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/"
+  },
+  {
+    "title": "Repeated Substring Pattern",
+    "description": "Check by KMP prefix table or (s+s).find(s) trick; rolling hash also works.",
+    "topic": "Strings",
+    "pattern": "String Matching (KMP / Z / Rabin–Karp)",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/repeated-substring-pattern/"
+  },
+  {
+    "title": "Longest Substring with At Least K Repeating Characters",
+    "description": "Divide & conquer or sliding partitions by invalid chars; ensure each char freq ≥ k.",
+    "topic": "Strings",
+    "pattern": "Recursion / Divide & Conquer",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/"
+  },
+  {
+    "title": "Implement Trie (Prefix Tree)",
+    "description": "Design insert/search/startsWith using a node map or array children.",
+    "topic": "Strings",
+    "pattern": "Trie / Prefix Tree",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/implement-trie-prefix-tree/"
+  },
+  {
+    "title": "Valid Parentheses",
+    "description": "Use a stack; push opens and match on close, ensure final stack empty.",
+    "topic": "Strings",
+    "pattern": "Stack",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/valid-parentheses/"
+  },
+  {
+    "title": "Decode String",
+    "description": "Stack for counts and partial strings; expand on closing bracket.",
+    "topic": "Strings",
+    "pattern": "Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/decode-string/"
+  },
+  {
+    "title": "Longest Substring with At Most K Distinct Characters",
+    "description": "Sliding window with counts; shrink until distinct ≤ K.",
+    "topic": "Strings",
+    "pattern": "Sliding Window",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/"
+  },
+  {
+    "title": "Longest Substring with At Most Two Distinct Characters",
+    "description": "Special case K=2; sliding window with last-seen positions.",
+    "topic": "Strings",
+    "pattern": "Sliding Window",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/"
+  },
+  {
+    "title": "Permutation in String",
+    "description": "Fixed-size window; match an anagram using frequency diffs.",
+    "topic": "Strings",
+    "pattern": "Sliding Window",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/permutation-in-string/"
+  },
+  {
+    "title": "Longest Happy Prefix",
+    "description": "Use KMP prefix function to find longest prefix equal to a suffix.",
+    "topic": "Strings",
+    "pattern": "String Matching (KMP / Z / Rabin–Karp)",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/longest-happy-prefix/"
+  },
+  {
+    "title": "Shortest Palindrome",
+    "description": "KMP (or rolling hash) on s + '#' + reverse(s) to find mirror length.",
+    "topic": "Strings",
+    "pattern": "String Matching (KMP / Z / Rabin–Karp)",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/shortest-palindrome/"
+  },
+  {
+    "title": "Longest Duplicate Substring",
+    "description": "Binary search length + rolling hash (Rabin–Karp) or suffix array.",
+    "topic": "Strings",
+    "pattern": "Rolling Hash",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/longest-duplicate-substring/"
+  },
+  {
+    "title": "Reorganize String",
+    "description": "Greedy with max-heap to avoid adjacent equal characters.",
+    "topic": "Strings",
+    "pattern": "Greedy",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/reorganize-string/"
+  },
+  {
+    "title": "Remove Duplicate Letters",
+    "description": "Monotonic stack with last-occurrence tracking to build smallest lexicographic string.",
+    "topic": "Strings",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/remove-duplicate-letters/"
+  },
+  {
+    "title": "Valid Palindrome II",
+    "description": "Two pointers; allow one deletion and check either side.",
+    "topic": "Strings",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/valid-palindrome-ii/"
+  },
+  {
+    "title": "Reverse Words in a String",
+    "description": "Trim spaces and reverse words order (two-pointer parsing).",
+    "topic": "Strings",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/reverse-words-in-a-string/"
+  },
+  {
+    "title": "Substring with Concatenation of All Words",
+    "description": "Sliding window over word-sized chunks; count matches with a hashmap per starting offset.",
+    "topic": "Strings",
+    "pattern": "Sliding Window",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/substring-with-concatenation-of-all-words/"
+  },
+  {
+    "title": "Longest Common Prefix",
+    "description": "Scan character-by-character (or sort then compare first/last) to find the shared prefix.",
+    "topic": "Strings",
+    "pattern": "General",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/longest-common-prefix/"
+  },
+  {
+    "title": "Add and Search Word - Data structure design",
+    "description": "Trie with '.' wildcard support via DFS over children at wildcard positions.",
+    "topic": "Strings",
+    "pattern": "Trie / Prefix Tree",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/add-and-search-word-data-structure-design/"
+  },
+  {
+    "title": "Backspace String Compare",
+    "description": "Two pointers from the end, skip deleted characters using a skip counter.",
+    "topic": "Strings",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/backspace-string-compare/"
+  },
+  {
+    "title": "Minimum Remove to Make Valid Parentheses",
+    "description": "Stack (or two-pass counts) to remove the minimum invalid parentheses.",
+    "topic": "Strings",
+    "pattern": "Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/"
+  },
+  {
+    "title": "Smallest Subsequence of Distinct Characters",
+    "description": "Monotonic stack with last-occurrence tracking and a visited set to build lexicographically smallest result.",
+    "topic": "Strings",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/"
+  },
+  {
+    "title": "Reorder Data in Log Files",
+    "description": "Custom sort: letter-logs come first sorted by content then id; digit-logs keep original order.",
+    "topic": "Strings",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/reorder-data-in-log-files/"
+  },
+  {
+    "title": "Encode and Decode Strings",
+    "description": "Design a robust length-prefixed format to join/split arbitrary strings.",
+    "topic": "Strings",
+    "pattern": "General",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/encode-and-decode-strings/"
+  },
+  {
+    "title": "Valid Number",
+    "description": "Implement a parser or DFA to validate integers, decimals, and exponent forms with optional signs/spaces.",
+    "topic": "Strings",
+    "pattern": "General",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/valid-number/"
+  },
+  {
+    "title": "Multiply Strings",
+    "description": "Grade-school multiplication with carry; build partial products and sum.",
+    "topic": "Strings",
+    "pattern": "General",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/multiply-strings/"
+  },
+  {
+    "title": "Reverse Linked List",
+    "description": "Iteratively reverse pointers (prev, curr, next) to invert the list.",
+    "topic": "Linked List",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/reverse-linked-list/"
+  },
+  {
+    "title": "Reverse Linked List II",
+    "description": "Reverse a sublist between left and right using in-place pointer rewiring.",
+    "topic": "Linked List",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/reverse-linked-list-ii/"
+  },
+  {
+    "title": "Merge Two Sorted Lists",
+    "description": "Walk both lists and append the smaller node; return merged head.",
+    "topic": "Linked List",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/merge-two-sorted-lists/"
+  },
+  {
+    "title": "Merge k Sorted Lists",
+    "description": "Push list heads into a min-heap; pop/push to build sorted output.",
+    "topic": "Linked List",
+    "pattern": "Heap / Priority Queue",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/merge-k-sorted-lists/"
+  },
+  {
+    "title": "Add Two Numbers",
+    "description": "Simulate digit-by-digit addition with carry across two lists.",
+    "topic": "Linked List",
+    "pattern": "General",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/add-two-numbers/"
+  },
+  {
+    "title": "Remove Nth Node From End of List",
+    "description": "Fast/slow pointers; move fast n steps, then advance together to delete target.",
+    "topic": "Linked List",
+    "pattern": "Fast & Slow Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+  },
+  {
+    "title": "Linked List Cycle",
+    "description": "Detect a cycle with Floyd’s tortoise–hare algorithm.",
+    "topic": "Linked List",
+    "pattern": "Fast & Slow Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/linked-list-cycle/"
+  },
+  {
+    "title": "Linked List Cycle II",
+    "description": "After meeting point, move one pointer to head; step both to find cycle start.",
+    "topic": "Linked List",
+    "pattern": "Fast & Slow Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/linked-list-cycle-ii/"
+  },
+  {
+    "title": "Intersection of Two Linked Lists",
+    "description": "Two pointers switch heads at list end; meet at intersection or null.",
+    "topic": "Linked List",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/intersection-of-two-linked-lists/"
+  },
+  {
+    "title": "Palindrome Linked List",
+    "description": "Find middle, reverse second half, compare halves, optionally restore.",
+    "topic": "Linked List",
+    "pattern": "Fast & Slow Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/palindrome-linked-list/"
+  },
+  {
+    "title": "Reverse Nodes in k-Group",
+    "description": "Reverse every k nodes using pointer rewiring; leave tail if < k nodes remain.",
+    "topic": "Linked List",
+    "pattern": "Two Pointers",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/reverse-nodes-in-k-group/"
+  },
+  {
+    "title": "Swap Nodes in Pairs",
+    "description": "Iteratively swap neighbors with a dummy head; update prev/first/second pointers.",
+    "topic": "Linked List",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/swap-nodes-in-pairs/"
+  },
+  {
+    "title": "Reorder List",
+    "description": "Find middle, reverse second half, then merge alternating nodes L0→Ln→L1→Ln-1…",
+    "topic": "Linked List",
+    "pattern": "Fast & Slow Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/reorder-list/"
+  },
+  {
+    "title": "Rotate List",
+    "description": "Connect tail to head to make a cycle, move (n - k % n) steps, break the cycle.",
+    "topic": "Linked List",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/rotate-list/"
+  },
+  {
+    "title": "Partition List",
+    "description": "Build <x and ≥x lists using two dummies; stitch together preserving order.",
+    "topic": "Linked List",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/partition-list/"
+  },
+  {
+    "title": "Odd Even Linked List",
+    "description": "Rewire next pointers to group odd-index nodes followed by even-index nodes.",
+    "topic": "Linked List",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/odd-even-linked-list/"
+  },
+  {
+    "title": "Remove Duplicates from Sorted List",
+    "description": "Skip equal-valued nodes to keep one copy in a sorted list.",
+    "topic": "Linked List",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/"
+  },
+  {
+    "title": "Remove Duplicates from Sorted List II",
+    "description": "Delete all nodes that have duplicates; use a dummy and lookahead to skip runs.",
+    "topic": "Linked List",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/"
+  },
+  {
+    "title": "Copy List with Random Pointer",
+    "description": "Clone nodes interleaved with originals, set randoms, then split the lists.",
+    "topic": "Linked List",
+    "pattern": "Hash Map / Set",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/copy-list-with-random-pointer/"
+  },
+  {
+    "title": "Sort List",
+    "description": "Top-down merge sort on linked list: split by middle, sort halves, merge.",
+    "topic": "Linked List",
+    "pattern": "Merge Sort",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/sort-list/"
+  },
+  {
+    "title": "Add Two Numbers II",
+    "description": "Use stacks (or reverse lists) to add from tail to head, carrying over as needed.",
+    "topic": "Linked List",
+    "pattern": "Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/add-two-numbers-ii/"
+  },
+  {
+    "title": "Delete Node in a Linked List",
+    "description": "Overwrite current node with next node’s value and bypass next.",
+    "topic": "Linked List",
+    "pattern": "General",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/delete-node-in-a-linked-list/"
+  },
+  {
+    "title": "Remove Linked List Elements",
+    "description": "Use a dummy head and skip nodes with the target value.",
+    "topic": "Linked List",
+    "pattern": "Two Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/remove-linked-list-elements/"
+  },
+  {
+    "title": "Remove Zero Sum Consecutive Nodes from Linked List",
+    "description": "Prefix sum + hashmap of first occurrence to skip zero-sum spans.",
+    "topic": "Linked List",
+    "pattern": "Prefix Sum",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/"
+  },
+  {
+    "title": "Flatten a Multilevel Doubly Linked List",
+    "description": "DFS/stack to splice child lists into the main doubly list.",
+    "topic": "Linked List",
+    "pattern": "Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/"
+  },
+  {
+    "title": "Insertion Sort List",
+    "description": "Iterate nodes and insert each into the sorted prefix using a dummy.",
+    "topic": "Linked List",
+    "pattern": "Sorting & Partitioning",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/insertion-sort-list/"
+  },
+  {
+    "title": "Split Linked List in Parts",
+    "description": "Compute length, divide into k parts with first r parts one node longer.",
+    "topic": "Linked List",
+    "pattern": "General",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/split-linked-list-in-parts/"
+  },
+  {
+    "title": "Middle of the Linked List",
+    "description": "Fast/slow pointers to find the middle (second middle for even length).",
+    "topic": "Linked List",
+    "pattern": "Fast & Slow Pointers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/middle-of-the-linked-list/"
+  },
+  {
+    "title": "Plus One Linked List",
+    "description": "Reverse, add one with carry (or recurse), then reverse back.",
+    "topic": "Linked List",
+    "pattern": "Recursion / Divide & Conquer",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/plus-one-linked-list/"
+  },
+  {
+    "title": "LRU Cache",
+    "description": "Design with a hashmap + doubly linked list for O(1) get/put.",
+    "topic": "Linked List",
+    "pattern": "Hash Map / Set",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/lru-cache/"
+  },
+  {
+    "title": "Convert Sorted List to Binary Search Tree",
+    "description": "Build BST by splitting the list at the middle (fast/slow) and recursing on halves.",
+    "topic": "Linked List",
+    "pattern": "Recursion / Divide & Conquer",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/"
+  },
+  {
+    "title": "Linked List Random Node",
+    "description": "Reservoir sampling to pick a node uniformly in one pass with O(1) space.",
+    "topic": "Linked List",
+    "pattern": "General",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/linked-list-random-node/"
+  },
+  {
+    "title": "Remove Duplicates from Unsorted Linked List",
+    "description": "Use a hash set to track seen values and splice out duplicates.",
+    "topic": "Linked List",
+    "pattern": "Hash Map / Set",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/"
+  },
+  {
+    "title": "Swapping Nodes in a Linked List",
+    "description": "Find kth from start and kth from end (two pointers) and swap their values.",
+    "topic": "Linked List",
+    "pattern": "Two Pointers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/swapping-nodes-in-a-linked-list/"
+  },
+  {
+    "title": "Remove Nodes From Linked List",
+    "description": "Monotonic stack from the right to remove nodes with a greater value later.",
+    "topic": "Linked List",
+    "pattern": "Monotonic Stack",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/remove-nodes-from-linked-list/"
+  }
+]

@@ -1,0 +1,75 @@
+Pattern,Difficulty,Problem
+Basics & Rearrangements,Easy,Reverse the array
+Basics & Rearrangements,Easy,Find max & min in array
+Basics & Rearrangements,Easy,Cyclically rotate by 1
+Basics & Rearrangements,Easy,Move negatives to one side (order not preserved)
+Basics & Rearrangements,Easy,Sort 0/1/2 (Dutch National Flag)
+Basics & Rearrangements,Medium,Kth min/max (heap or quickselect)
+Basics & Rearrangements,Medium,Move negatives (order preserved / stable)
+Basics & Rearrangements,Medium,Rearrange +/− alternately (O(1) extra space)
+Basics & Rearrangements,Medium,Three‑way partition around a value
+Basics & Rearrangements,Medium,Minimum swaps to group elements ≤ K together
+Basics & Rearrangements,Medium,Merge two sorted arrays in place (gap method)
+Basics & Rearrangements,Hard,"First missing positive (index‑as‑hash, O(1) space)"
+Two Pointers / Sorting,Easy,Union & Intersection of two sorted arrays
+Two Pointers / Sorting,Easy,Remove duplicates in sorted array (in‑place)
+Two Pointers / Sorting,Medium,Pair sum (sorted / unsorted)
+Two Pointers / Sorting,Medium,3‑sum (triplet sum = target)
+Two Pointers / Sorting,Medium,Common elements in 3 sorted arrays
+Two Pointers / Sorting,Medium,Minimum absolute difference (sorted)
+Two Pointers / Sorting,Hard,4‑sum (k‑sum generalization)
+Two Pointers / Sorting,Hard,Kth smallest/largest in a sorted matrix
+Kadane & Subarray (Prefix/Hash),Easy,Largest sum subarray (Kadane)
+Kadane & Subarray (Prefix/Hash),Easy,Subarray sum = 0 (existence)
+Kadane & Subarray (Prefix/Hash),Medium,Longest subarray sum = K (pos+neg)
+Kadane & Subarray (Prefix/Hash),Medium,Count subarrays sum = K
+Kadane & Subarray (Prefix/Hash),Medium,Longest subarray with equal 0s & 1s (0→−1 trick)
+Kadane & Subarray (Prefix/Hash),Medium,Count subarrays divisible by K
+Kadane & Subarray (Prefix/Hash),Medium,Maximum product subarray
+Kadane & Subarray (Prefix/Hash),Hard,Maximum circular subarray sum
+Sliding Window,Easy,Max sum subarray of size K (fixed window)
+Sliding Window,Medium,Smallest subarray with sum ≥ S (positives)
+Sliding Window,Medium,Longest substring/array without repeating elements
+Sliding Window,Medium,Longest substring/array with at most K distinct elements
+Sliding Window,Hard,Minimum window substring/subarray (cover required elements)
+Monotonic Stack,Easy,Next greater element (array)
+Monotonic Stack,Medium,Stock span
+Monotonic Stack,Medium,Trapping rain water
+Monotonic Stack,Medium,Sum of subarray minimums (or maximums)
+Monotonic Stack,Hard,Largest rectangle in histogram
+Binary Search on Answer,Medium,Capacity to ship packages within D days
+Binary Search on Answer,Medium,Min days to make m bouquets
+Binary Search on Answer,Medium,Split array largest sum (allocate pages)
+Binary Search on Answer,Medium,Magnetic force between balls / Aggressive cows
+Binary Search on Answer,Hard,"Median of two sorted arrays (O(log(min(n,m))))"
+Intervals & Sweep Line,Easy,Merge intervals
+Intervals & Sweep Line,Medium,Insert interval
+Intervals & Sweep Line,Medium,Minimum arrows to burst balloons
+Intervals & Sweep Line,Medium,Meeting rooms I (can attend all?)
+Intervals & Sweep Line,Hard,Meeting rooms II (min rooms via sweep/heap)
+Order Statistics & Heaps,Easy,Kth min/max using heap (intro)
+Order Statistics & Heaps,Medium,Quickselect Kth (average O(n))
+Order Statistics & Heaps,Medium,Top‑K frequent elements
+Order Statistics & Heaps,Medium,K pairs with smallest sums
+Order Statistics & Heaps,Hard,Streaming/sliding‑window top‑K (heap/monotonic deque)
+Greedy & Stock,Easy,Best time to buy & sell stock I
+Greedy & Stock,Medium,Best time to buy & sell stock II
+Greedy & Stock,Medium,Max profit with at most two transactions
+Greedy & Stock,Medium,Minimise the maximum difference between heights
+Greedy & Stock,Medium,Chocolate distribution (minimize max diff)
+Greedy & Stock,Hard,Stock with cooldown / transaction fee (DP on arrays)
+Jumps & Reachability,Easy,Jump Game I (can reach end?)
+Jumps & Reachability,Medium,Minimum jumps to reach end (greedy levels)
+Jumps & Reachability,Hard,Jump Game II variants with extra constraints
+Inversions / Products / Matrix,Medium,Count inversions (merge sort)
+Inversions / Products / Matrix,Medium,Product of array except self (O(1) extra)
+Inversions / Products / Matrix,Medium,Set matrix zeroes (O(1) extra)
+Inversions / Products / Matrix,Hard,Median of 2 sorted arrays (different sizes)
+Inversions / Products / Matrix,Hard,Rotate matrix in place
+Frequency & Voting,Easy,Majority element (> n/2) (Boyer–Moore)
+Frequency & Voting,Medium,Elements appearing > n/k (Boyer–Moore generalization)
+Frequency & Voting,Hard,Dynamic updates + query majority/frequency (advanced DS)
+Consecutive & LIS‑style DP,Easy,Longest consecutive sequence (hash set)
+Consecutive & LIS‑style DP,Medium,Maximum sum increasing subsequence
+Consecutive & LIS‑style DP,Medium,LIS O(n log n)
+Consecutive & LIS‑style DP,Hard,Reconstruct LIS path with duplicates & stability constraints
