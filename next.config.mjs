@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
-    // ✅ Allows production builds to succeed even with ESLint errors
     ignoreDuringBuilds: true,
   },
+  output: "export", // ✅ replaces old `next export`
 };
 
 export default nextConfig;
